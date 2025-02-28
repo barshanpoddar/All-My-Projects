@@ -1,0 +1,24 @@
+.imgSize-15px {
+    height: 15px;
+}
+.imgSize-20px {
+    height: 20px;
+}
+.imgSize-30px {
+    height: 30px;
+}
+.imgSize-50px {
+    height: 50px;
+}
+.color-white {
+    color: white;
+}
+.margin-10b {
+    margin-bottom: 10px;
+}
+.bg-red {
+    background-color: rgb(221, 72, 72);
+}
+.bg-blue {
+    background-color: rgb(91, 91, 231);
+}
