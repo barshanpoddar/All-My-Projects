@@ -15,11 +15,11 @@
             <div class="navWraper">
                 <div id="sideNav">
                     <div id="imgBg"><img class="userImg" src="/ToDoList/assets/user-white.svg"></div>
-                        <div id="menuDiv">
-                            <img src="/ToDoList/assets/triangle-white.svg" id="home" class="imgSize-15px menuImg">
-                            <img src="/ToDoList/assets/square-white.svg" class="imgSize-15px menuImg">
-                            <img src="/ToDoList/assets/circle-white.svg" class="imgSize-15px menuImg">
-                        </div>
+                    <div id="menuDiv">
+                        <img src="/ToDoList/assets/triangle-white.svg" id="home" class="imgSize-15px menuImg">
+                        <img src="/ToDoList/assets/square-white.svg" class="imgSize-15px menuImg">
+                        <img src="/ToDoList/assets/circle-white.svg" class="imgSize-15px menuImg">
+                    </div>
                     <img class="margin-10b" src="/ToDoList/assets/settings-white.svg">
                 </div>
             </div>
@@ -33,8 +33,22 @@
                 </div>
                 <div id="content">
                     <div class="tasks">
-                        <div id="openTasks"></div>
-                        <div id="unasinedTasks"></div>
+                        <div id="openTasks">
+                            <img class="small-icons" src="/ToDoList/assets/star-black.svg">
+                            <p class="num">102</p>
+                            <div class="detials">
+                                <p>Open Tasks</p>
+                                <p id="overDueTask">4 Overdue</p>
+                            </div>
+                        </div>
+                        <div id="unasinedTasks">
+                            <img class="small-icons" src="/ToDoList/assets/hexagon-white.svg">
+                            <p class="unassinedNum">12</p>
+                            <div class="detials">
+                                <p class="color-white">Unassined Tasks</p>
+                                <p id="unasinedParcent">4% Unassined Tasks</p>
+                            </div>
+                        </div>
                     </div>
                     <div id="graph"></div>
                     <div id="doneOutOf"></div>
