@@ -10,7 +10,7 @@
 :root {
     --highlight: #d1581f;
     --main-black: #141414;
-    --light-bg: #eeeeee;
+    --light-bg: #ebe8e8;
     --main-color: #fbfbfb;
     --highlight-brown: #934118;
 }
@@ -169,27 +169,26 @@ body {
     margin-right: 10px;
     color: var(--highlight);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #graph {
     background-color: var(--light-bg);
     grid-column: 1 / 2;
     grid-row: 2 / 4;
     border-radius: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #doneOutOf {
     background-color: var(--light-bg);
     grid-column: 2 / 3;
